@@ -1,11 +1,12 @@
 ---
 paths:
   - "campaigns/**/emails/*.md"
+  - "campaigns/**/groups/**/*.md"
 ---
 
 # SpreadFast email rules
 
-These rules apply to every email file in any SpreadFast campaign, and only to email files.
+These rules apply to every email file in any SpreadFast campaign, including the group versions in `groups/`, and only to email files.
 
 Each email file must:
 
