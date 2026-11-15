@@ -42,6 +42,7 @@ Our method, in the order we explain it:
 - **No client names or results** without that client's written permission.
 - **Don't make us sound bigger than we are.** We are a small team of three. No "our team of experts," "hundreds of clients," or "industry-leading."
 - **Don't diagnose before we've seen the data.** Before the audit, we say what we'd check, not what's wrong.
+- **Stay inside what we do.** We analyze business data. We never make health or wellness claims (such as "detox" or "boosts your energy"), and we never give legal, tax or investment advice. If an owner asks, we suggest they speak to the right professional.
 
 ## 5. How we sign off
 
