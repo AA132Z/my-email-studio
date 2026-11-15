@@ -1,0 +1,25 @@
+first_name,last_name,email,group,joined_on,consent
+Ayesha,Khan,ayesha.khan@example.com,ecommerce,2026-09-14,waitlist form
+Tom,Becker,tom.becker@example.com,qsr,2026-09-22,waitlist form
+Maria,Lopez,maria.lopez@example.com,qsr,2026-08-30,waitlist form
+Darnell,Brooks,darnell.brooks@example.com,qsr,2026-09-03,waitlist form
+Priya,Nair,priya.nair@example.com,qsr,2026-09-11,waitlist form
+Kevin,O'Brien,kevin.obrien@example.com,qsr,2026-09-28,waitlist form
+Linh,Tran,linh.tran@example.com,qsr,2026-10-05,waitlist form
+Carlos,Mendes,carlos.mendes@example.com,qsr,2026-10-17,waitlist form
+Hannah,Fischer,hannah.fischer@example.com,qsr,2026-10-29,waitlist form
+Grace,Kim,grace.kim@example.com,apparel,2026-08-27,waitlist form
+Jamal,Wright,jamal.wright@example.com,apparel,2026-09-06,waitlist form
+Sofia,Rossi,sofia.rossi@example.com,apparel,2026-09-19,waitlist form
+Ethan,Clarke,ethan.clarke@example.com,apparel,2026-09-25,waitlist form
+Fatima,Rahman,fatima.rahman@example.com,apparel,2026-10-02,waitlist form
+Lucas,Silva,lucas.silva@example.com,apparel,2026-10-13,waitlist form
+Olivia,Bennett,olivia.bennett@example.com,apparel,2026-10-24,waitlist form
+Noah,Patel,noah.patel@example.com,apparel,2026-11-04,waitlist form
+Emily,Park,emily.park@example.com,ecommerce,2026-08-29,waitlist form
+Marcus,Johnson,marcus.johnson@example.com,ecommerce,2026-09-08,waitlist form
+Zara,Ahmed,zara.ahmed@example.com,ecommerce,2026-09-30,waitlist form
+Daniel,Reyes,daniel.reyes@example.com,ecommerce,2026-10-09,waitlist form
+Chloe,Martin,chloe.martin@example.com,ecommerce,2026-10-20,waitlist form
+Omar,Haddad,omar.haddad@example.com,ecommerce,2026-10-31,waitlist form
+Rachel,Cohen,rachel.cohen@example.com,ecommerce,2026-11-09,waitlist form
