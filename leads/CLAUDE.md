@@ -11,6 +11,6 @@ These rules apply to every file in `leads/`.
 
 `first_name,last_name,email,group,joined_on,consent`
 
-- `group` is one of: `qsr`, `apparel`, `ecommerce`
+- `group` is one of: `qsr`, `apparel`, `ecommerce`, `real-estate`
 - `joined_on` is a date written as YYYY-MM-DD
 - `consent` says how they agreed to hear from us, such as `waitlist form`
