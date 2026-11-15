@@ -12,10 +12,10 @@ To start, just the short form: your type of business, your main problem and a ro
 We only ask for what we need. Only the three of us see it. We never sell it or share it with anyone else.
 
 **How long does it take?**
-We reply to every request within two working days. Then we set up a short call at a time that suits you.
+We aim to reply to every request within two working days. Then we set up a short call at a time that suits you.
 
 **What does it cost?**
-The first look is free. If you'd like us to go further, we'll give you a clear price after the first look, before you agree to anything.
+The first look is free, and it includes an audit of your own numbers. If you'd like us to go further after the audit, we'll give you a clear price before you agree to anything.
 
 **Is my business too small?**
 No. We're a small team, and we work with small businesses. One restaurant, one clothing shop or one online store is a good fit.

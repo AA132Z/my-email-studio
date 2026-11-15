@@ -21,7 +21,7 @@ You might see your business in one of these:
 
 We've attached a short brochure with more detail.
 
-If you'd like us to take a look, send a free first-look request. It's a short form: your type of business, your main problem and a rough sales range. We'll reply with what we'd check first. We won't say what's wrong until we've seen your data.
+If you'd like us to take a look, send a first-look request. It's a short form: your type of business, your main problem and a rough sales range. We'll reply with what we'd check first. The first look is free, and it includes an audit of your own numbers. We won't say what's wrong until we've seen your data.
 
 [Send a first-look request](https://spreadfast.example/launch)
 

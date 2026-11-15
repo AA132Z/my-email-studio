@@ -13,7 +13,7 @@ Here's what we'd likely check first:
 - **Clothing shops:** which items, sizes and seasons really make money.
 - **Online stores:** which customers and channels bring profit, not just sales.
 
-The first look is free, and we won't say what's wrong until we've seen your data.
+The first look is free, and it includes an audit of your own numbers. We won't say what's wrong until we've seen your data.
 
 [Send a first-look request](https://spreadfast.example/launch)
 
