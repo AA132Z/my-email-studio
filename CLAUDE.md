@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this studio is for
 
-This is an email marketing studio. We use it to plan and write email campaigns for a small business. Our sample client is **Kettlebird Tea**, a made-up online tea shop launching a monthly tea box called **The Steep Club** to the people on its waitlist.
+This is an email marketing studio. We use it to plan and write email campaigns for **SpreadFast**, a three-person analytics team. SpreadFast helps US small business owners in food service (QSR), real estate, apparel and e-commerce grow their business. We study the category, then customers, then audit the owner's own data, and we suggest solutions that fit.
+
+We find owners who have posted a business problem in public, such as falling margins. We reply there first, and we email them only after they share their address.
 
 The studio is also our work for assignment **FDE-102, Email Studio Lab**. The full lab, with every step's prompts and pass criteria, is in `assignment/FDE-102-lab.md`. Read the step you're on before doing lab work.
 
