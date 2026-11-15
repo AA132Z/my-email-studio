@@ -11,6 +11,10 @@ The studio is also our work for assignment **FDE-102, Email Studio Lab**. The fu
 ## Folders
 
 - `brand/`: how the brand sounds, including the voice guide, words to use and avoid, and claims we never make.
+
+## Brand voice
+
+@brand/voice.md
 - `leads/`: made-up practice customers we write to. They are never real people.
 - `campaigns/`: one folder per campaign, holding its plan, its emails and a version for each customer group.
 - `notes/`: research, decisions and working notes, such as which skills we chose and why.
