@@ -3,13 +3,13 @@ Preview: December is busy. Send a request when it suits you, and we can start in
 
 Hi {{first_name}},
 
-December is a busy month for restaurants, shops and online stores. If you haven't had time to think about your numbers, that's normal.
+December is a busy month for restaurants, clothing shops and online stores. If you haven't had time to think about your numbers, that's normal.
 
-Here's an easy option. Send a first-look request whenever it suits you, and we'll start in January, once things are calmer. The form takes a few minutes: your type of business, your main problem and a rough sales range.
+Here's a simple option. Send a first-look request whenever it suits you, and we'll start in January, once things are calmer. The form is short: your type of business, your main problem and a rough sales range.
 
 Here's what we'd likely check first:
 
-- **Restaurants:** where margin goes between the till and the bank.
+- **Restaurants:** which costs are rising faster than your sales.
 - **Clothing shops:** which items, sizes and seasons really make money.
 - **Online stores:** which customers and channels bring profit, not just sales.
 

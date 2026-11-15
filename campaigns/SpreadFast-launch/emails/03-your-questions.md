@@ -3,7 +3,7 @@ Preview: What we need from you, how we keep it private, and what the first look 
 
 Hi {{first_name}},
 
-Owners have asked us a few good questions since we opened. Here are short answers.
+Before you send a request, you might have a few questions. Here are short answers.
 
 **What data do you need?**
 To start, just the short form: your type of business, your main problem and a rough sales range. If we go further, we'd ask for reports you already have. For a restaurant, that's often till sales and supplier bills. For a clothing shop, sales and stock by item and size. For an online store, orders, ad spend and returns.
@@ -18,7 +18,7 @@ We reply to every request within two working days. Then we set up a short call a
 The first look is free. If you'd like us to go further, we'll give you a clear price after the first look, before you agree to anything.
 
 **Is my business too small?**
-No. We're a small team, and we work with small businesses. One restaurant or one online shop is a good fit.
+No. We're a small team, and we work with small businesses. One restaurant, one clothing shop or one online store is a good fit.
 
 **I already have dashboards. What do you add?**
 Dashboards show what happened. We look for why it happened, and what's worth changing first.

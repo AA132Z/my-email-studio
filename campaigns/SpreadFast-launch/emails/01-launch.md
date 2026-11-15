@@ -3,7 +3,7 @@ Preview: Send us a free first-look request, and we'll tell you what we'd check f
 
 Hi {{first_name}},
 
-You asked to hear from us when we opened. Today we have. **SpreadFast is now taking new clients.**
+You asked to hear from us when we opened. Today we're open. **SpreadFast is now taking new clients.**
 
 What we do is simple to say. We analyze your data, find the problems, and give you solutions that grow your business.
 
