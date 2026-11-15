@@ -1,4 +1,4 @@
-Subject: Start the new year with a look at your numbers
+Subject: Start the new year with your numbers
 Preview: December is busy. Send a request when it suits you, and we can start in January.
 
 Hi {{first_name}},
@@ -15,7 +15,7 @@ Here's what we'd likely check first:
 
 The first look is free, and we won't say what's wrong until we've seen your data.
 
-[Send a request for January](https://spreadfast.example/launch)
+[Send a first-look request](https://spreadfast.example/launch)
 
 If now isn't the right time, that's fine too. You can reply to this email whenever you're ready.
 

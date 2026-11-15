@@ -1,11 +1,11 @@
 Subject: How we size up an opportunity
-Preview: Three made-up samples, and how we estimate what's at stake in a business like yours.
+Preview: Three made-up samples, and how we estimate what's at stake.
 
 Hi {{first_name}},
 
 Last week we said we start with your category. Here's what that looks like.
 
-A category study shows how businesses like yours usually make and lose money. We use advanced analytics, which means we look for patterns in how businesses like yours make and lose money: their sales, costs and customers. Then we compare those patterns with your own numbers.
+A category study shows how businesses like yours usually make and lose money. We use advanced analytics, which means we look for patterns in the sales, costs and customers of your category. Then we compare those patterns with your own numbers.
 
 That comparison lets us estimate the size of the opportunity: roughly how much money is at stake. **It's an estimate, not a promise,** and we always tell you where it comes from.
 

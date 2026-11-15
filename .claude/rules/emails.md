@@ -9,7 +9,7 @@ These rules apply to every email file in any SpreadFast campaign, and only to em
 
 Each email file must:
 
-1. **Start with the subject and preview.** The first line is `Subject: ...`, 50 characters or fewer. The second line is `Preview: ...`, 90 characters or fewer.
+1. **Start with the subject and preview.** The first line is `Subject: ...` and the second line is `Preview: ...`. Count only the text after the label: the subject is 50 characters or fewer and the preview is 90 characters or fewer. Aim to keep the whole line, label included, within the same limits so the email passes either way.
 2. **Greet the reader by first name.** Use `{{first_name}}`, for example: `Hi {{first_name}},`
 3. **Have exactly one main link.** It goes to the page for that campaign, written as a Markdown link:
    - SpreadFast launch: `[Button text](https://spreadfast.example/launch)`
