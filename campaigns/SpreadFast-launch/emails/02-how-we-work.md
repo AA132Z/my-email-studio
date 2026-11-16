@@ -22,7 +22,7 @@ Want to know what we'd check first for you?
 [Send a first-look request](https://spreadfast.example/launch)
 
 Happy to look at your numbers,
-The SpreadFast team
+Team SpreadFast
 
 You're getting this because you showed interest in our services, {{source}} via SpreadFast.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}

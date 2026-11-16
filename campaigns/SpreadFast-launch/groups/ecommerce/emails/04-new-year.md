@@ -18,7 +18,7 @@ The first look is free, and it includes an audit of your own numbers. We won't s
 If now isn't the right time, that's fine too. You can reply to this email whenever you're ready.
 
 Happy to look at your numbers,
-The SpreadFast team
+Team SpreadFast
 
 You're getting this because you showed interest in our services, {{source}} via SpreadFast.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}

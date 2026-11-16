@@ -24,7 +24,7 @@ If you'd like us to take a look, send a first-look request. It's a short form: y
 [Send a first-look request](https://spreadfast.example/launch)
 
 Happy to look at your numbers,
-The SpreadFast team
+Team SpreadFast
 
 You're getting this because you showed interest in our services, {{source}} via SpreadFast.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}

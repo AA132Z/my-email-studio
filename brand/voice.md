@@ -49,6 +49,6 @@ Our method, in the order we explain it:
 Every email ends like this:
 
 > Happy to look at your numbers,
-> The SpreadFast team
+> Team SpreadFast
 
-One of us sends the emails, but always signs as "The SpreadFast team." Personal names, phone numbers and email addresses don't go in the sign-off.
+One of us sends the emails, but always signs as "Team SpreadFast." Personal names, phone numbers and email addresses don't go in the sign-off.

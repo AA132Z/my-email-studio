@@ -40,4 +40,4 @@ It's a short form. We aim to reply to every request within two working days.
 [Send my request]
 
 Happy to look at your numbers,
-The SpreadFast team
+Team SpreadFast

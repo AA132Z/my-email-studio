@@ -3,7 +3,7 @@
 Business: SpreadFast, a three-person team that provides advanced analytics for business growth (we look for patterns in a business's sales, costs and customers, then suggest what to change)
 Channel: email only, no paid ads
 Campaign window: Monday 7 December 2026 to Sunday 3 January 2027 (4 weeks)
-Voice: follows `brand/voice.md`. Friendly, careful and clear. Every email ends "Happy to look at your numbers, The SpreadFast team".
+Voice: follows `brand/voice.md`. Friendly, careful and clear. Every email ends "Happy to look at your numbers, Team SpreadFast".
 
 ## 1. Campaign overview
 
