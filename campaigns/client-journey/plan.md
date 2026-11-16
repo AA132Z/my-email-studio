@@ -54,7 +54,7 @@ Each version keeps the main email and changes only the opening line and one exam
 
 | Group | Sales analytics example | Consumer analytics example | Communication example |
 |---|---|---|---|
-| QSR | Which menu items sell together, so your combos fit what people already buy | Which regulars are visiting less often | What your menu and delivery app listings say |
+| QSR | Which menu items sell together, so your combos fit what people already buy | How often your regulars come back | What your menu and delivery app listings say |
 | Real estate | Which listings and price bands close, and how fast | Which leads turn into deals, by where they came from | How your listings and follow-up messages read |
 | Apparel | Which styles and sizes sell together, and which sit on the shelf | Which customers come back each season | What your posts and product pages say about fit and price |
 | E-commerce | Which products end up in the same cart | Which customers buy again and which buy once | Which emails and ads bring buyers, not just clicks |

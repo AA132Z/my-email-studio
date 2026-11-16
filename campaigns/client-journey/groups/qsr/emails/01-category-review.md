@@ -15,7 +15,7 @@ What we can help with, in plain words:
 - **Consumer analytics:** who your customers are and how they behave. One method we use is RFM, which means sorting customers by how recently, how often and how much they buy.
 - **Communication analysis:** what your messages and ads say, and how they land with customers.
 
-For example, in a restaurant we'd start by looking at which menu items sell together, and which regulars are visiting less often.
+For example, in a restaurant we'd start by looking at which menu items sell together, and how often your regulars come back.
 
 To make our advice fit you, we'd love your answers to a few questions. Just reply to this email and write under each one:
 
@@ -28,5 +28,5 @@ If talking is easier than typing, you can book a short call instead. It's option
 Happy to look at your numbers,
 Team SpreadFast
 
-You're getting this because you showed interest in our services, {{source}} via SpreadFast.
+You're getting this because you shared your email with us after we replied to {{source}}.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}

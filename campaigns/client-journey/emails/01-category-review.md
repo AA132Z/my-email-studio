@@ -28,5 +28,5 @@ If talking is easier than typing, you can book a short call instead. It's option
 Happy to look at your numbers,
 Team SpreadFast
 
-You're getting this because you showed interest in our services, {{source}} via SpreadFast.
+You're getting this because you shared your email with us after we replied to {{source}}.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}

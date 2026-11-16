@@ -20,7 +20,7 @@ Each email file must:
    No other links in the email.
 4. **End with our sign-off from `brand/voice.md`**, then this two-line footer as plain text, not inside a code block:
 
-You're getting this because you showed interest in our services, {{source}} via SpreadFast.
+You're getting this because you shared your email with us after we replied to {{source}}.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
 So the end of every email looks like this:
@@ -28,7 +28,7 @@ So the end of every email looks like this:
 Happy to look at your numbers,
 Team SpreadFast
 
-You're getting this because you showed interest in our services, {{source}} via SpreadFast.
+You're getting this because you shared your email with us after we replied to {{source}}.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
 Leave the `{{...}}` placeholders as they are. The email tool fills them in when it sends. Besides `{{first_name}}`, `{{source}}`, `{{company_address}}` and `{{unsubscribe_url}}`, two more are allowed:

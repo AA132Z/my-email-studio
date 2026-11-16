@@ -10,19 +10,19 @@ Thank you for agreeing to share your shop's data with us. We know that takes tru
 **How we keep it private.**
 
 - Only our team of three sees your data.
-- We use it only to study your business. We never share it or sell it.
+- We use it only to study your business.
 - When the work is done, we'll ask what you'd like us to do with it.
 
-**What happens next.** We study your category, then customers, then your own numbers. Within three weeks of getting your data, we'll send you a proposal: what we'd look at, what we think is worth doing, and what it would cost.
+**What happens next.** We study your category, then customers, then your own numbers. Once we've studied your data, we'll send you a proposal: what we'd look at, what we think is worth doing, and what it would cost. We'll tell you when to expect it.
 
 When you're ready, you can send your files here:
 
-[Share your data safely](https://spreadfast.example/share-data)
+[Send your data](https://spreadfast.example/share-data)
 
 If anything is unclear, just reply to this email.
 
 Happy to look at your numbers,
 Team SpreadFast
 
-You're getting this because you showed interest in our services, {{source}} via SpreadFast.
+You're getting this because you shared your email with us after we replied to {{source}}.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
