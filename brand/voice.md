@@ -51,4 +51,4 @@ Every email ends like this:
 > Happy to look at your numbers,
 > The SpreadFast team
 
-Sohail sends the emails, but signs as "The SpreadFast team." Personal names, phone numbers and email addresses don't go in the sign-off.
+One of us sends the emails, but always signs as "The SpreadFast team." Personal names, phone numbers and email addresses don't go in the sign-off.

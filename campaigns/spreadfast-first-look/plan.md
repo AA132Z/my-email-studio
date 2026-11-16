@@ -100,7 +100,7 @@ Other numbers we watch:
 - Replies to our emails (owners often reply instead of clicking)
 - Unsubscribes for each email (aim: under 3% in total)
 
-How we track them: the email tool's reports for opens, clicks and unsubscribes, plus a tracking tag on the booking link so each call shows which email and group it came from. Sohail logs replies by hand. We review the numbers every Monday.
+How we track them: the email tool's reports for opens, clicks and unsubscribes, plus a tracking tag on the booking link so each call shows which email and group it came from. We log replies by hand. We review the numbers every Monday.
 
 ## 8. Budget
 

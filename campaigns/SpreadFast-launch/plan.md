@@ -108,7 +108,7 @@ Other numbers we watch:
 - Requests that turn into a first-look call
 - Unsubscribes for each email (aim: under 2% in total)
 
-How we track them: the email tool's reports for opens, clicks and unsubscribes, plus a tracking tag on the form link so each request shows which email and group it came from. Sohail logs replies by hand. We review the numbers every Monday.
+How we track them: the email tool's reports for opens, clicks and unsubscribes, plus a tracking tag on the form link so each request shows which email and group it came from. We log replies by hand. We review the numbers every Monday.
 
 ## 8. Budget
 
