@@ -63,16 +63,16 @@ campaigns/client-journey/
 │   ├── 02-data-agreed.md
 │   └── 03-proposal.md
 └── groups/
-    ├── qsr/          01-… 02-… 03-…
-    ├── real-estate/  01-… 02-… 03-…
-    ├── apparel/      01-… 02-… 03-…
-    └── ecommerce/    01-… 02-… 03-…
+    ├── qsr/emails/          01-… 02-… 03-…
+    ├── real-estate/emails/  01-… 02-… 03-…
+    ├── apparel/emails/      01-… 02-… 03-…
+    └── ecommerce/emails/    01-… 02-… 03-…
 archive/
 ├── SpreadFast-launch/         moved as is
 └── spreadfast-first-look/     moved as is
 ```
 
-The group folders hold the email files directly (no nested `emails/` folder), which removes the duplicate copies.
+The group folders keep the lab's layout, `groups/<group>/emails/`; the extra flat copies are gone.
 
 ### Each email
 
@@ -90,11 +90,11 @@ The group folders hold the email files directly (no nested `emails/` folder), wh
 
 `leads/leads.csv` columns become:
 
-`first_name,last_name,email,group,stage,source,updated_on,consent`
+`first_name,last_name,email,group,joined_on,consent,stage,source`
 
 - `stage`: `email-shared`, `data-agreed` or `proposal-sent`
 - `source`: where we found them, such as `your post in r/smallbusiness`
-- `updated_on`: date the stage last changed (YYYY-MM-DD)
+- `joined_on`: date they shared their email (YYYY-MM-DD); kept because the lab's leads check looks for it
 - `consent`: `shared email in reply`
 
 The same 24 made-up leads are kept, with stages spread across them. All addresses stay `@example.com`.
@@ -105,14 +105,14 @@ The same 24 made-up leads are kept, with stages spread across them. All addresse
 - `brand/voice.md`: add the three services and how to explain them.
 - `.claude/rules/emails.md`: replace the two campaign links with the three stage links; allow `{{attachment}}` and `{{questions}}`.
 - `leads/CLAUDE.md`: new columns and allowed values.
-- `.claude/skills/personalize/SKILL.md`: example path becomes `campaigns/client-journey`; groups write straight into `groups/<group>/`.
+- `.claude/skills/personalize/SKILL.md`: example path becomes `campaigns/client-journey`; versions go only in `groups/<group>/emails/`.
 
 ## My calls (please check)
 
 - Folder name `client-journey` and the three stage links above.
 - Questions in the email body, not attached.
 - Stage 1 link to an optional short call.
-- Plan targets are starting guesses, marked as such: about 1 in 2 owners who get stage 1 agree to share data, and about 1 in 3 who get a proposal become clients. We review monthly.
+- Plan has one goal with a number and a deadline, over a pilot window with real dates (lab plan check). Targets are starting guesses, marked as such: about 1 in 2 owners who get stage 1 agree to share data, and about 1 in 3 who get a proposal become clients.
 
 ## Left to the builder
 

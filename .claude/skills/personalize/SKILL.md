@@ -27,7 +27,7 @@ The groups to write for are every group in `leads/leads.csv`, minus any group th
 
 ## 3. Write one version per email per group
 
-Save each version straight to `<campaign folder>/groups/<group>/<same file name>`, for example `groups/qsr/01-category-review.md`. Never use a nested `emails/` folder inside `groups/`. If the file already exists, replace it.
+Save each version to `<campaign folder>/groups/<group>/emails/<same file name>`, for example `groups/qsr/emails/01-category-review.md`. Don't write email files anywhere else in `groups/`. If the file already exists, replace it.
 
 **Keep exactly the same as the main email:**
 - The structure: the order of paragraphs, headings, lists and questions.

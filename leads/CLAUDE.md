@@ -9,13 +9,13 @@ These rules apply to every file in `leads/`.
 
 ## Columns
 
-`first_name,last_name,email,group,stage,source,updated_on,consent`
+`first_name,last_name,email,group,joined_on,consent,stage,source`
 
 - `group` is one of: `qsr`, `apparel`, `ecommerce`, `real-estate`
+- `joined_on` is the date they shared their email, written as YYYY-MM-DD
+- `consent` says how they agreed to hear from us: `shared email in reply`
 - `stage` is where the owner is in the client journey, one of:
   - `email-shared`: they gave us their email; next is the category review email
   - `data-agreed`: they agreed to share their data; next is the data agreed email
   - `proposal-sent`: we sent our proposal and quote
 - `source` is where we found them, written to fit the email, such as `your post in r/smallbusiness`
-- `updated_on` is the date the stage last changed, written as YYYY-MM-DD
-- `consent` says how they agreed to hear from us: `shared email in reply`
