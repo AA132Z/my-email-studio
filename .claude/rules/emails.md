@@ -12,9 +12,10 @@ Each email file must:
 
 1. **Start with the subject and preview.** The first line is `Subject: ...` and the second line is `Preview: ...`. Count only the text after the label: the subject is 50 characters or fewer and the preview is 90 characters or fewer. Aim to keep the whole line, label included, within the same limits so the email passes either way.
 2. **Greet the reader by first name.** Use `{{first_name}}`, for example: `Hi {{first_name}},`
-3. **Have exactly one main link.** It goes to the page for that campaign, written as a Markdown link:
-   - SpreadFast launch: `[Button text](https://spreadfast.example/launch)`
-   - First Look: `[Button text](https://spreadfast.example/first-look)`
+3. **Have exactly one main link.** It goes to the page for that stage of the client journey, written as a Markdown link. The file name's number tells you the stage:
+   - `01-...` category review: `[Button text](https://spreadfast.example/call)`
+   - `02-...` data agreed: `[Button text](https://spreadfast.example/share-data)`
+   - `03-...` proposal: `[Button text](https://spreadfast.example/proposal)`
 
    No other links in the email.
 4. **End with our sign-off from `brand/voice.md`**, then this two-line footer as plain text, not inside a code block:
@@ -30,4 +31,7 @@ Team SpreadFast
 You're getting this because you showed interest in our services, {{source}} via SpreadFast.
 SpreadFast, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
-Leave the `{{...}}` placeholders as they are. The email tool fills them in when it sends.
+Leave the `{{...}}` placeholders as they are. The email tool fills them in when it sends. Besides `{{first_name}}`, `{{source}}`, `{{company_address}}` and `{{unsubscribe_url}}`, two more are allowed:
+
+- `{{attachment}}`: the name of the custom file we attach, such as the category review or the proposal.
+- `{{questions}}`: the custom questions we write for this owner. Put it on a line of its own.

@@ -9,6 +9,23 @@ Our method, in the order we explain it:
 2. Study customers in general.
 3. Audit your own business, so our advice fits you.
 
+## What we offer
+
+Three services, each tied directly to revenue:
+
+- **Sales analytics**: what sells, when, and at what margin. One method we use is Market Basket Analysis, which means finding which items people buy together.
+- **Consumer analytics**: who your customers are and how they behave. One method we use is RFM, which means sorting customers by how recently, how often and how much they buy.
+- **Communication analysis**: what your messages and ads say, and how they land with customers.
+
+For each category we use well-known frameworks that fit how that kind of business works. Name a method once, and explain it in plain words right after.
+
+## How we win a client
+
+1. **Find and reply.** We find an owner on Reddit or a similar site who has posted a business problem. We reply there, offer help, and ask for their email. This step is not email.
+2. **Category review.** Once they share their email, we send a custom review of their category (attached) and a few custom questions.
+3. **Data agreed.** Once they agree to share their data, we say what to send, how we keep it private, and when our proposal will come.
+4. **Proposal.** After we've studied their data, we send a custom proposal with our quote (attached). We only quote after we've seen the data.
+
 ## 1. Our voice in three words
 
 - **Friendly.** We write like a helpful person, not a firm. If we sound stiff or salesy, worried owners leave.

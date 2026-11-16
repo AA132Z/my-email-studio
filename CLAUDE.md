@@ -6,21 +6,29 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is an email marketing studio. We use it to plan and write email campaigns for **SpreadFast**, a three-person analytics team. SpreadFast helps US small business owners in food service (QSR), real estate, apparel and e-commerce grow their business. We study the category, then customers, then audit the owner's own data, and we suggest solutions that fit.
 
-We find owners who have posted a business problem in public, such as falling margins. We reply there first, and we email them only after they share their address.
+We find owners who have posted a business problem in public, such as falling margins. We reply there first, and we email them only after they share their address. From then on, each owner moves through three emails, each sent when the owner does something, never on a calendar:
+
+1. **Category review**: sent when they share their email. A custom category review is attached, with custom questions.
+2. **Data agreed**: sent when they agree to share their data. What to send, how we keep it private, when the proposal comes.
+3. **Proposal**: sent after we've studied their data. A custom proposal and quote are attached.
+
+The live campaign is `campaigns/client-journey/`. `leads/leads.csv` tracks which stage each owner is at.
 
 The studio is also our work for assignment **FDE-102, Email Studio Lab**. The full lab, with every step's prompts and pass criteria, is in `assignment/FDE-102-lab.md`. Read the step you're on before doing lab work.
 
 ## Folders
 
 - `brand/`: how the brand sounds, including the voice guide, words to use and avoid, and claims we never make.
+- `leads/`: made-up practice customers we write to. They are never real people.
+- `campaigns/`: one folder per campaign, holding its plan, its emails and a version for each customer group.
+- `archive/`: old campaigns from before the client journey. Read only; don't write new emails there.
+- `notes/`: research, decisions and working notes, such as which skills we chose and why.
+- `docs/`: designs and plans for changes to the studio.
+- `assignment/`: the lab instructions. Read them, but don't edit them.
 
 ## Brand voice
 
 @brand/voice.md
-- `leads/`: made-up practice customers we write to. They are never real people.
-- `campaigns/`: one folder per campaign, holding its plan, its emails and a version for each customer group.
-- `notes/`: research, decisions and working notes, such as which skills we chose and why.
-- `assignment/`: the lab instructions. Read them, but don't edit them.
 
 ## Rules
 

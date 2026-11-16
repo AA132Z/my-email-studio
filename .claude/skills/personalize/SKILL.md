@@ -12,7 +12,7 @@ Campaign folder: $ARGUMENTS
 
 ## 1. Check the input
 
-- If no campaign folder was given, stop. Use Glob on `campaigns/*/plan.md` and `campaigns/*/emails/*.md`, then reply with the list of campaign folders that exist and how to run the skill, for example `/personalize campaigns/SpreadFast-launch`. Write nothing.
+- If no campaign folder was given, stop. Use Glob on `campaigns/*/plan.md` and `campaigns/*/emails/*.md`, then reply with the list of campaign folders that exist and how to run the skill, for example `/personalize campaigns/client-journey`. Write nothing.
 - If the folder doesn't exist, or has no `emails/*.md` files, stop the same way: say what's missing and list the campaign folders that do exist.
 
 ## 2. Read what you need
@@ -27,7 +27,7 @@ The groups to write for are every group in `leads/leads.csv`, minus any group th
 
 ## 3. Write one version per email per group
 
-Save each version to `<campaign folder>/groups/<group>/emails/<same file name>`. If the file already exists, replace it.
+Save each version straight to `<campaign folder>/groups/<group>/<same file name>`, for example `groups/qsr/01-category-review.md`. Never use a nested `emails/` folder inside `groups/`. If the file already exists, replace it.
 
 **Keep exactly the same as the main email:**
 - The structure: the order of paragraphs, headings, lists and questions.
