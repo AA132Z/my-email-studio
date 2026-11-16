@@ -36,7 +36,7 @@ The studio is also our work for assignment **FDE-102, Email Studio Lab**. The fu
 - **Never send email to real people.** Leads are made up and use `@example.com` addresses. When sending email:
   - **Practice mode goes to the local emulator.** In practice mode, every email goes to the local Resend emulator (`http://localhost:4000`), never to the real Resend service.
   - **Only test addresses or my own address.** Through Resend, send only to Resend test addresses ending in `@resend.dev`, or to my own address as set in the `MY_EMAIL` environment variable. Never write my address into a file.
-  - **No real recipients while testing.** Never send to waitlist contacts, customers or any other real person during testing.
+  - **No real recipients while testing.** Never send to owners who shared their email, clients or any other real person during testing.
   - **A guard will enforce this.** The next lab step adds a recipient check that runs before every send and blocks any address that breaks these rules.
   - **If in doubt, don't send.** If you can't confirm that we're in practice mode, or that every recipient is allowed, don't send the email.
 - **Ask me before deleting anything:** files, folders, branches or commits.
