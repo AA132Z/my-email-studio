@@ -9,6 +9,7 @@ What changed from the lab, and why:
 - **The bad email is a SpreadFast email.** It plants the three problems the lab asks for. All three break our own rules: `brand/voice.md` bans health claims such as "detox" and pressure lines such as "last chance", and `.claude/rules/emails.md` allows exactly one link. Everything else follows the rules, so the review should find only the planted problems.
 - **The script calls `claude` with a list of arguments, not through a shell.** On Windows, a shell can break the quotes inside the schema text.
 - **If `claude` fails, the script says why and exits with code 2.** The check asks what happens when `claude` fails.
+- **Reviews run with the API key hidden.** My Windows user environment sets `ANTHROPIC_API_KEY`, and that API account has no credit, so `claude -p` fails with "Credit balance is too low". Running `env -u ANTHROPIC_API_KEY node scripts/review.mjs <folder>` makes `claude` use my claude.ai login for that one command. The script itself doesn't remove the key, because a GitHub Actions run would need it.
 
 ---
 
@@ -45,6 +46,8 @@ Tell me: did the detox finding disappear, and did anything get reported twice? C
 
 ```
 Test my automatic review. The script rewrites review/findings.json; don't change any other file.
+
+Run every review with my API key hidden for that one command, so claude uses my claude.ai login instead of the API account (which has no credit): env -u ANTHROPIC_API_KEY node scripts/review.mjs <folder>
 
 1. Run node scripts/review.mjs campaigns/test-bad. Did it exit with code 1? Does every finding in review/findings.json have all five fields from review/findings.schema.json, with severity high, medium or low?
 2. Did it catch the second link? Quote that finding.
