@@ -8,7 +8,7 @@ What changed from the lab, and why:
 - **Angle A echoes the owner's own words.** It repeats the problem they posted but never says what's causing it. The voice guide says we don't diagnose before we've seen the data.
 - **Each angle says what it must not do.** This keeps the two forks apart, so the check can tell if one used the other's idea.
 - **Subjects count the text only, not the `Subject:` label.** This matches `.claude/rules/emails.md`.
-- **The last session only suggests the final line.** It doesn't edit any email files.
+- **The last session writes the final line into email 01, as the lab asks.** In our project that means the main email and all four group versions, so they stay the same. It changes only the `Subject:` line.
 
 Name every fork with `-n`. A fork without a name keeps `journey-angles`, and later resumes fail with "matches 2 sessions".
 
@@ -71,7 +71,7 @@ Read notes/angle-a.md and notes/angle-b.md. Then write notes/handoff.md in 10 li
 Then `/exit`, start a brand-new session with `claude`, and ask:
 
 ```
-Read notes/handoff.md and continue from it: suggest the final subject line for email 01, the category review email, with its character count. Don't edit any email files.
+Read notes/handoff.md and continue from it: write the final subject line for email 01, the category review email. Put it in the main email (campaigns/client-journey/emails/01-category-review.md) and in each group's version under campaigns/client-journey/groups/, so all five match. Change only the Subject: line, keep it to 50 characters or fewer (text only, per .claude/rules/emails.md), and tell me its character count.
 ```
 
 ## Check · New session, then paste
@@ -83,6 +83,7 @@ Check my session experiment. Don't change any files.
 2. Does either file use the other angle's idea? Angle A echoes the owner's own posted problem; Angle B is what we learned about their category. They were written in separate forks, so they shouldn't overlap.
 3. Do any of the six lines break brand/voice.md: hype, promises, saying what's wrong before we've seen the data, "Quick question" or "Re:"?
 4. Is notes/handoff.md 10 lines or fewer, does it cover all four groups, and does everything it says match the files it describes?
+5. Does email 01 (the main email and all four group versions) use the subject line the handoff picked, and is the Subject: line the only thing that changed? Use git to see what changed.
 
 Give me a short table: Test | Pass or Fail | What you saw.
 Then ask me two quick questions, one at a time: when I should resume a session and when I should start fresh with a summary, and what --fork-session gave me that resuming didn't.
