@@ -1,4 +1,4 @@
-Subject: Your category review from SpreadFast
+Subject: How businesses like yours make and lose money
 Preview: A short look at how your kind of business works, and a few questions for you.
 
 Hi {{first_name}},
