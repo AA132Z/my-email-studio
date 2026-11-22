@@ -11,8 +11,8 @@ We work in three steps. We study your category, then customers in general, then 
 
 What we can help with, in plain words:
 
-- **Sales analytics:** what sells, when, and at what margin. One method we use is Market Basket Analysis, which means finding which items people buy together.
-- **Consumer analytics:** who your customers are and how they behave. One method we use is RFM, which means sorting customers by how recently, how often and how much they buy.
+- **Sales analytics:** what sells, when, and at what margin.
+- **Consumer analytics:** who your customers are and how they behave.
 - **Communication analysis:** what your messages and ads say, and how they land with customers.
 
 For example, in an agency we'd start by looking at which listings and price bands close, and which leads turn into deals.
