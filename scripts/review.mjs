@@ -21,17 +21,36 @@ function fail(reason) {
   process.exit(2);
 }
 
-const folder = (process.argv[2] || '').replace(/[\\/]+$/, '');
+// Forward slashes and no trailing slash, so "campaigns\test-bad\" and "campaigns/test-bad" match.
+const folder = (process.argv[2] || '').replace(/\\/g, '/').replace(/^\.\//, '').replace(/\/+$/, '');
 if (!folder) fail('no campaign folder given. Example: node scripts/review.mjs campaigns/client-journey');
 if (!existsSync(folder) || !statSync(folder).isDirectory()) fail(`folder not found: ${folder}`);
 if (!existsSync(schemaPath)) fail(`schema not found: ${schemaPath}`);
 
 const schemaText = readFileSync(schemaPath, 'utf8');
 
-const prompt =
+// Earlier findings for the same folder, if review/findings.json holds them.
+let earlier = null;
+if (existsSync(outPath)) {
+  try {
+    const saved = JSON.parse(readFileSync(outPath, 'utf8'));
+    if (saved.folder === folder && Array.isArray(saved.findings)) earlier = saved.findings;
+  } catch {
+    // An unreadable file just means a fresh review.
+  }
+}
+
+let prompt =
   `Review every email file in ${folder}, including the group versions in ${folder}/groups/*/emails/, ` +
   `against brand/voice.md and .claude/rules/emails.md. Report only real problems. ` +
   `Give each file as a path relative to the repo root, and the line number where the problem is.`;
+
+if (earlier) {
+  prompt +=
+    `\n\nThese are findings from the last review. Report only problems that are new or still not fixed. ` +
+    `Don't repeat ones that have been fixed.\n` +
+    JSON.stringify(earlier, null, 2);
+}
 
 const args = [
   '-p', prompt,
@@ -76,13 +95,15 @@ if (!output || !Array.isArray(output.findings)) {
 }
 
 mkdirSync(outDir, { recursive: true });
-writeFileSync(outPath, JSON.stringify(output, null, 2) + '\n');
+// Save the folder too, so the next review of the same folder can build on these findings.
+writeFileSync(outPath, JSON.stringify({ folder, findings: output.findings }, null, 2) + '\n');
 
 const count = { high: 0, medium: 0, low: 0 };
 for (const f of output.findings) if (f.severity in count) count[f.severity] += 1;
 
 console.log(
-  `Review of ${folder}: ${output.findings.length} finding(s): ` +
+  `Review of ${folder}${earlier ? ` (re-review, ${earlier.length} earlier finding(s))` : ''}: ` +
+  `${output.findings.length} finding(s): ` +
   `${count.high} high, ${count.medium} medium, ${count.low} low. Saved to review/findings.json.`,
 );
 

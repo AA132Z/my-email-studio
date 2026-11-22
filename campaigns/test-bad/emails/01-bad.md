@@ -7,7 +7,7 @@ Thank you for sharing your email after we replied to {{source}}. As promised, he
 
 **Attached: {{attachment}}.** It's a short review of how businesses like yours tend to make and lose money. It's based on our study of your category, not on your own numbers yet.
 
-Our audit will detox your margins and clear out everything that's holding your business back.
+Once we see your own numbers, we'd start by looking at where your margins change from week to week.
 
 This is your last chance to get a review this month, so book a call today.
 
