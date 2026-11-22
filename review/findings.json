@@ -1,19 +1,75 @@
 {
-  "folder": "campaigns/test-bad",
+  "folder": "campaigns/client-journey",
   "findings": [
     {
-      "file": "campaigns/test-bad/emails/01-bad.md",
-      "line": 12,
-      "severity": "high",
-      "problem": "Still not fixed. \"This is your last chance to get a review this month, so book a call today\" is pressure language. \"Last chance\" is on the voice.md avoid list, and the deadline is made up to create urgency.",
-      "fix": "Remove the deadline. Use a calm invitation such as: \"If it helps to talk it through, you can book a short call.\""
+      "file": "campaigns/client-journey/emails/02-data-agreed.md",
+      "line": 16,
+      "severity": "medium",
+      "problem": "The data-agreed email must say when the proposal will come (voice.md, 'How we win a client' step 3, and the preview on line 2 promises it). Line 16 only says 'We'll tell you when to expect it', so the owner never gets a timeframe.",
+      "fix": "Give a timeframe or the event that triggers it, for example: 'We'll send your proposal within about two weeks of getting your files.'"
     },
     {
-      "file": "campaigns/test-bad/emails/01-bad.md",
+      "file": "campaigns/client-journey/groups/apparel/emails/02-data-agreed.md",
       "line": 16,
-      "severity": "high",
-      "problem": "Still not fixed. This is a second link (https://spreadfast.example/about). Rule 3 in .claude/rules/emails.md allows exactly one link, the stage page (/call for 01- emails), and no other links.",
-      "fix": "Delete line 16, leaving the /call link on line 14 as the only link."
+      "severity": "medium",
+      "problem": "Same as the base email: it promises to say when the proposal comes but only says 'We'll tell you when to expect it'.",
+      "fix": "Use the same timeframe sentence as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/groups/ecommerce/emails/02-data-agreed.md",
+      "line": 16,
+      "severity": "medium",
+      "problem": "Same as the base email: it promises to say when the proposal comes but only says 'We'll tell you when to expect it'.",
+      "fix": "Use the same timeframe sentence as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/groups/qsr/emails/02-data-agreed.md",
+      "line": 16,
+      "severity": "medium",
+      "problem": "Same as the base email: it promises to say when the proposal comes but only says 'We'll tell you when to expect it'.",
+      "fix": "Use the same timeframe sentence as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/groups/real-estate/emails/02-data-agreed.md",
+      "line": 16,
+      "severity": "medium",
+      "problem": "Same as the base email: it promises to say when the proposal comes but only says 'We'll tell you when to expect it'.",
+      "fix": "Use the same timeframe sentence as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/emails/01-category-review.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "The subject text is 45 characters, which is fine. But the whole line, with 'Subject: ', is 54 characters, over the 50 that emails.md rule 1 asks for so the email passes either way of counting.",
+      "fix": "Cut the subject to 41 characters or fewer, for example 'How your kind of business makes money' (37)."
+    },
+    {
+      "file": "campaigns/client-journey/groups/apparel/emails/01-category-review.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Same subject as the base email: 54 characters with the label, over the 50 the rule aims for.",
+      "fix": "Use the same shorter subject as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/groups/ecommerce/emails/01-category-review.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Same subject as the base email: 54 characters with the label, over the 50 the rule aims for.",
+      "fix": "Use the same shorter subject as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/groups/qsr/emails/01-category-review.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Same subject as the base email: 54 characters with the label, over the 50 the rule aims for.",
+      "fix": "Use the same shorter subject as the base email."
+    },
+    {
+      "file": "campaigns/client-journey/groups/real-estate/emails/01-category-review.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Same subject as the base email: 54 characters with the label, over the 50 the rule aims for.",
+      "fix": "Use the same shorter subject as the base email."
     }
   ]
 }
