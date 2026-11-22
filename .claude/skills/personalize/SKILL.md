@@ -18,7 +18,7 @@ Campaign folder: $ARGUMENTS
 ## 2. Read what you need
 
 1. Every email in `<campaign folder>/emails/*.md`, in file-name order. These are the main emails. Never change them.
-2. `<campaign folder>/plan.md`, if it exists. Look for the messages by group (opening lines and examples), and for any group the plan says is **not** part of this campaign.
+2. `<campaign folder>/plan.md`, if it exists. Look for the messages by group (opening lines and examples), any other changes the plan lists for a group (such as wording to leave out), and any group the plan says is **not** part of this campaign.
 3. `brand/voice.md`, for the voice, the words to avoid and the claims we never make.
 4. `.claude/rules/emails.md`, for the email file rules.
 5. `leads/leads.csv`. Take only the distinct values in the `group` column. Don't use names, emails or any other lead data in the emails.
@@ -42,6 +42,8 @@ Save each version to `<campaign folder>/groups/<group>/emails/<same file name>`,
 
 If the `Preview:` line names several groups or samples and would no longer be true, change only as much as needed to make it true. Keep it to 90 characters or fewer.
 
+**Group changes from the plan:** if the plan lists other changes for a group, make exactly those changes in that group's versions, and nothing more.
+
 **Brand rules:**
 - Follow `brand/voice.md`: friendly, careful and clear, with short sentences and plain words.
 - Don't add any claim, number, price, promise or percentage that isn't already in the main email or the plan.
@@ -55,7 +57,7 @@ For every file you wrote, confirm:
 - The greeting is `Hi {{first_name}},`.
 - There is exactly one link, and it matches the main email's link.
 - The last five lines match the main email's last five lines exactly.
-- Only the opening line and one example (and, if needed, the preview) differ from the main email.
+- Only the opening line and one example (and, if needed, the preview) differ from the main email, plus any group changes the plan lists for that group.
 
 Fix anything that fails before you reply.
 

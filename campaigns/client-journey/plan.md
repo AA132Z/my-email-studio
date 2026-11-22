@@ -59,6 +59,10 @@ Each version keeps the main email and changes only the opening line and one exam
 | Apparel | Which styles and sizes sell together, and which sit on the shelf | Which customers come back each season | What your posts and product pages say about fit and price |
 | E-commerce | Which products end up in the same cart | Which customers buy again and which buy once | Which emails and ads bring buyers, not just clicks |
 
+Other changes by group:
+
+- **Real estate:** leave out the named methods Market Basket Analysis and RFM, and their explanations. They are about items bought together and repeat buying, which don't fit an agency. Keep the plain description of each service.
+
 ## 6. What we need to make
 
 | Item | What it holds | Ready by |
